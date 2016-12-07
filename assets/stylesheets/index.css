@@ -38,3 +38,22 @@ width: 100%;
     font-size: 4em;
   }
 }
+.grid-parent {
+  max-width: 1200px;
+  margin: 75px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-child {
+  flex: 1;
+  text-align: center;
+  margin: 30px 0;
+}
+
+@media all and (max-width: 800px) {
+  ...
+
+  .grid-child {
+    flex: 1 0 50%
+}
+}

@@ -1,3 +1,39 @@
+.navbar {
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  border-radius: 0;
+  z-index: 99;
+}
+
+.navbar-default{
+  background-color: black;
+  border-color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-default.scrolled {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FF7F50;
+  text-shadow: 1px 1px black;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-default .navbar.nav > li > a:hover {
+  color: #FF7F50;
+    text-shadow: 1px 1px black;
+    transition: all 0.5s ease-in-out;
+}
+
 .main-hero {
   display: flex;
   align-items: center;
@@ -89,7 +125,7 @@
   opacity: 0;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .white-text {
